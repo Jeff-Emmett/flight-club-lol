@@ -9,8 +9,8 @@ on:
     branches: [main]
 
 env:
-  REGISTRY: gitea.jeffemmett.com
-  IMAGE: gitea.jeffemmett.com/jeffemmett/flight-club-lol
+  REGISTRY: localhost:3000
+  IMAGE: localhost:3000/jeffemmett/flight-club-lol
 
 jobs:
   deploy:
